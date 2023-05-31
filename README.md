@@ -9,7 +9,7 @@ Retrieve the history data.
 - **URL:** `/api/history`
 - **Method:** `GET`
 
-#### Query Parameters
+#### Request Headers
 
 | Parameter | Type   | Description                  |
 |-----------|--------|------------------------------|
