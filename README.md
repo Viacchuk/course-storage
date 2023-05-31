@@ -6,7 +6,7 @@
 
 Retrieve the history data.
 
-- **URL:** `/history`
+- **URL:** `/api/history`
 - **Method:** `GET`
 
 #### Query Parameters
@@ -40,7 +40,7 @@ Retrieve the history data.
 
 Retrieve the current interval value.
 
-- **URL:** `/interval`
+- **URL:** `/api/interval`
 - **Method:** `GET`
 
 #### Response
@@ -58,7 +58,7 @@ Retrieve the current interval value.
 
 Update the interval value.
 
-- **URL:** `/interval`
+- **URL:** `/api/interval`
 - **Method:** `PUT`
 
 #### Request Headers
