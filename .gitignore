@@ -5,3 +5,11 @@
 /.env
 /logs
 /.env.prod
+/package-lock.json
+/.idea
+/node_modules
+/build*
+/.devbuild*
+/.env
+/logs
+/.env.prod

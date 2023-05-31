@@ -4,6 +4,36 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viacchuk/course-storage.git"
+  },
+  "author": "Viacchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viacchuk/course-storage/issues"
+  },
+  "homepage": "https://github.com/Viacchuk/course-storage#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1"
+  }
+}
+{
+  "name": "course-storage",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
