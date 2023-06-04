@@ -30,7 +30,7 @@ class IntervalController {
             if (intervalRecords.length > 0) {
                 await dbController.update('Interval', { id: 1 }, interval);
             } else {
-                await dbController.create('Interval', { interval });
+                await dbController.create('Interval', interval);
             }
             res.status(200).json({ message: `Wrote to DB new interval - ${interval}` });
         } catch (error) {
